@@ -51,10 +51,11 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <p><b> Think Print, Think ColourMate !</b></p>
-          <p>We are a complete design and print house. Dealing with digital printing, display system and translates and almost everything that would be put up as an end-signage. Our team works round the clock designing &amp; printing innovative products to cater to the competitive market of advertising. </p>
-          <p>Established in 2000, the first generation printing company Colourmate Digital is a complete digital house dealing with digital printing, display system and translates. Colourmate Digital has been surging its status since its inception. It is a result of the continuous creative efforts of our hardworking team towards building a highly satisfied and happy clientele. We strive to give our customers a 100% satisfaction by designing and creating products apt for their business. We have a long client list comprising small and medium advertising agencies operating across North India. </p>
-          <p>With 60 people team strength ,more than 2000+ respected client list comprising of small , medium to large scale and government agencies, we keep on adding new clients while keeping our promise of quality and upgradation to latest technology.Concerning the tasks that can be done at Colourmate Digital will include almost everything that would be put up as an end-signage operating across PAN India.</p>
-          <p>Colour Mate Digital has always been a pioneer in adopting the latest and best technology available for the sign and display graphics industry. We have it all to cater to your print media needs. You can trust us.</p>
+          <p>We are a complete design and print house. Dealing with wide format digital printing, display systems , backlit boards and almost everything that would be put up as an end-signage,in store graphics ,outdoor media , Structural POS displays etc. </p>
+          <p>Our team works round the clock designing ,printing & creating innovative products to cater to the competitive market of advertising,marketing & visual merchandising.</p>
+          <p>Established in 2000, by three young first generation entrepreneurs - Nitin, Sandeep & Gaurav - the company has been surging its status since its inception. It is a result of the continuous creative efforts of our hardworking team towards building a highly satisfied and happy clientele. We strive to give our customers a 100% satisfaction by designing and creating products apt for their business. We have a long client list comprising small and medium advertising agencies operating across PAN India.</p>
+          <p>With 60 people team strength ,more than 2000+ respected client list comprising of small , medium to large scale and government agencies, we keep on adding new clients while keeping our promise of quality and upgradation to latest technology.Concerning the tasks that can be done at Colourmate Digital will include almost everything that would be put up as an end-signage , graphics , visual merchandising operating across PAN India.</p>
+          <p>Colour Mate Digital has always been a pioneer in adopting the latest and best technology available for the sign and display graphics industry. We have it all to cater to your print media needs. <b>You can trust us.</b></p>
           {close}
         </article>
 
@@ -63,21 +64,31 @@ class Main extends React.Component {
         <div class="container">
             <div class="section">
             <a href="https://goo.gl/maps/xSPcLeb5Hvj" className="icon fa-map-pin"><span className="label">Facebook</span>
-                    <p>2940, Street No 3, 
-                    Chuna Mandi, Pahar Ganj 
-                    New Delhi 110055, India</p></a></div>
+                    <p><b>Head Office <b>
+2940/3 Chuna Mandi , Pahar Ganj 
+New Delhi-55</p></a></div>
+<div class="section">
+            <a href="https://goo.gl/maps/QTUQmm5EQMaQxC2A6" className="icon fa-map-pin"><span className="label">Facebook</span>
+                    <p><b>Works<b>
+Plot no 20, MM road
+Behind Rani  Jhansi Road 
+New Delhi-55
+Landline +91-11-23617066</p></a></div>
             <div class="section">
-              <a href="mailto:colourmate2940@gmail.com" className="icon fa-envelope-o">
+              <a href="mailto:colourmate@yahoo.co.in" className="icon fa-envelope-o">
                 <span className="label">Facebook</span>
-                <p>colourmate2940@gmail.com</p></a>
+                <p>colourmate@yahoo.co.in</p></a>
                 </div>
-            <div class="section"><a href="mailto:colourmate2940@gmail.com" className="icon fa-phone"><span className="label">Phone</span><p>+91-9711192136</p></a></div>
+            <div class="section"><a href="mailto:colourmate@yahoo.co.in" className="icon fa-phone"><span className="label">Phone</span><p>Contact person
+Gaurav - +91 9811192136
+Sandeep - +91 9711192136
+Nitin - + 91 9811898013</p></a></div>
             </div>
         </div>
 
 
           <h2 className="major">Send us a message</h2>
-          <form action="mailto:colourmate2940@gmail.com" method="post" enctype="text/plain">
+          <form action="mailto:query@colourmatedigital.com" method="post" enctype="text/plain">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
