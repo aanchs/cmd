@@ -64,12 +64,12 @@ class Main extends React.Component {
         <div class="container">
             <div class="section">
             <a href="https://goo.gl/maps/xSPcLeb5Hvj" className="icon fa-map-pin"><span className="label">Facebook</span>
-                    <p><b>Head Office <b>
+                    <p><b>Head Office </b>
 2940/3 Chuna Mandi , Pahar Ganj 
 New Delhi-55</p></a></div>
 <div class="section">
             <a href="https://goo.gl/maps/QTUQmm5EQMaQxC2A6" className="icon fa-map-pin"><span className="label">Facebook</span>
-                    <p><b>Works<b>
+                    <p><b>Works</b>
 Plot no 20, MM road
 Behind Rani  Jhansi Road 
 New Delhi-55
